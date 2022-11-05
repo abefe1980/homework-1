@@ -1,0 +1,124 @@
+:root{
+    --accent-color:#2196F3;
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --primary-tittle-color:#212121;
+    --secondary-tittle-color:#FFFFFF;
+    --dark-background-color:#2F303A;
+    --light-background-color:#F5F4FA;
+
+
+
+
+
+}
+.body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:var(--primary-text-color);
+}   
+ ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.logo{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:calc(31/26);
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        text-decoration: none;
+    
+    
+       
+}
+.navigation-link{
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height:calc(16/14);
+        letter-spacing: 0.02em;
+         color: var(--primary-text-color);
+
+}
+.navigation-link:hover,
+.navigation-link:focus{
+
+    color: var(--accent-color);
+
+}
+.navigation-link-current{
+    color: var(--accent-color);
+
+}
+.header-contact{
+        font-size: 14px;
+        line-height:calc(16/14);
+        letter-spacing: 0.02em;
+    
+        color:var(--secondary-text-color);
+}
+.header-contact:hover,
+.header-contact:focus{
+    color:var(--accent-color);
+
+}
+.hero-section{
+    background-color:var(--dark-background-color)
+}
+.hero-tittle{
+       
+        font-weight: 900;
+        font-size: 44px;
+        line-height:calc(60/44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color:var(--secondary-tittle-color);
+}
+.hero-button{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: calc(30/16); 
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color:var(--secondary-tittle-color);
+        background-color: var(--accent-color);
+        cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+    color:green;
+    background-color: darkblue;
+}
+.features-item-tittle{
+        font-weight: 700;
+        font-size: 14px;
+        line-height:calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color:var(--primary-tittle-color);
+}
+.features-item-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height:calc(24/14);
+        letter-spacing: 0.03em;
+     color:var(--secondary-text-color)
+
+
+
+
