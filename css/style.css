@@ -12,14 +12,14 @@
 
 
 }
-body{
+body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color:var(--primary-text-color);
-}   
+    color: var(--primary-text-color);
+}
  ul{
     list-style: none;
     text-decoration: none;
@@ -87,15 +87,15 @@ a{
         color:var(--secondary-tittle-color);
 }
 .hero-button{
-    font-family: 'Roboto';
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: calc(30/16); 
         display: flex;
         text-align: center;
+        align-items: center;
         letter-spacing: 0.06em;
-    
         color:var(--secondary-tittle-color);
         background-color: var(--accent-color);
         cursor: pointer;
