@@ -85,6 +85,7 @@ a{
         text-transform: uppercase;
     
         color:var(--secondary-tittle-color);
+
 }
 .hero-button{
         font-family: 'Roboto';
@@ -99,6 +100,21 @@ a{
         color:var(--secondary-tittle-color);
         background-color: var(--accent-color);
         cursor: pointer;
+}
+.hero-button1{
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background-color: var(--light-background-color);
+        color:var(--primary-tittle-color);
+}
+.hero-button1:hover,
+.hero-button1:focus{
+    background-color: #2196F3;
+    color:#FFFFFF;
 }
 .hero-button:hover,
 .hero-button:focus{
