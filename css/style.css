@@ -23,7 +23,17 @@ body {
  ul{
     list-style: none;
     text-decoration: none;
-}
+    display:inline-flex;
+ }
+ ul li {
+    padding:15px;
+ }
+ .navbar {
+
+     display: flex;
+     justify-content: space-between;
+
+ }
 a{
     text-decoration: none;
 }
@@ -73,7 +83,11 @@ a{
 
 }
 .hero-section{
-    background-color:var(--dark-background-color)
+         width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background-color:var(--dark-background-color);
 }
 .hero-tittle{
        
@@ -83,7 +97,8 @@ a{
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-    
+        padding: 250px;
+      
         color:var(--secondary-tittle-color);
 
 }
@@ -100,10 +115,11 @@ a{
         color:var(--secondary-tittle-color);
         background-color: var(--accent-color);
         cursor: pointer;
+       
 }
 .hero-button1{
-    
-        font-weight: 500;
+        
+        
         font-size: 16px;
         line-height: 26px;
         text-align: center;
@@ -147,6 +163,7 @@ a{
 }
 .team-section{
     background-color: var(--light-background-color);
+    
 }
 .name{
         font-size: 16px;
