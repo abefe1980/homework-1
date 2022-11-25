@@ -119,9 +119,9 @@ img{
        color: var(--accent-color); 
 }
 .hero-section{
-       display: flex;
+        display: flex;
         justify-content: center;
-background: url("/css/hero.jpg");
+         background-image: url("/css/hero.jpg");
         width: 1600px;
         height: 636px;  
        
