@@ -63,7 +63,6 @@ img{
 
 }
 
-
 .navigation-list{
         display: flex;
         align-items: center;
@@ -107,12 +106,15 @@ img{
         margin-right: 50px;
 }
 .header-contact-link{
-      display: block;
+      display:flex;
         padding-top: 32px;
         padding-bottom: 32px; 
         color: var(--secondary-text-color); 
+        text-align: center;
 }
-
+.icon-item{
+        margin: 3px;
+}
 
 
 .navigation-current-link{
@@ -324,6 +326,12 @@ margin:10px
 .portfolio-project-text{
         
         color: var(--secondary-text-color);
+}
+.icon-menu{
+        display: flex;
+        justify-items: center;
+        margin-top: 30px;
+
 }
 
 
