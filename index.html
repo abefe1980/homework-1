@@ -30,7 +30,7 @@
             </nav>
             <ul class="header-contacts">
                 <li class="header-contact-item">
-                <a href="mailto:info@devstudio.com" class="header-contact-link"><svg width="16" height="12" class="icon-item"><use href="./svg/envelop.svg#icon-envelope-hover"></use></svg>
+                <a href="mailto:info@devstudio.com" class="header-contact-link"><svg width="16" height="12" class="icon-item"><use href="./svg/sprites.svg#icon-envelope-hover"></use></svg>
                 info@devstudio.com</a></li>
                 <li><a href="tel:+38096111111" class="header-contact-link"><svg width="10" height="16"  class="icon-item"><use href="./svg/smart.svg#icon-smartphone"></use></svg>+38096111111</a>
                 </li>
@@ -43,7 +43,7 @@
         <section class="hero-section" >
             <div class="hero-container">
                 <h1 class="hero-tittle">EFFECTIVE SOLUTIONS FOR<br> YOUR BUSINESS</h1>
-                <button type="button" class="hero-button">REQUEST OUR SERVICE </button>
+                <button type="button" class="hero-button" data-modal-open><a>REQUEST OUR SERVICE</a> </button>
             </div>
         </section>
         
@@ -54,15 +54,15 @@
                     <svg class="icon-menu">
                         <use href="./svg/sprite.svg#icon-Group" class="icon-list"></use>
                 
+                    </svg >
+                    <svg class="icon-menu">
+                        <use href="./svg/sprites.svg#icon-clock-1"> </use>
                     </svg>
-                    <svg>
-                        <use href="./svg/sprite0.svg#icon-clock-2"> </use>
+                    <svg class="icon-menu">
+                        <use href="./svg/sprites.svg#icon-diagram-1"></use>
                     </svg>
-                    <svg>
-                        <use href="./svg/sprite3.svg#icon-diagram-1"></use>
-                    </svg>
-                    <svg>
-                        <use href="./svg/sprite6.svg#icon-Vector"></use>
+                    <svg class="icon-menu">
+                        <use href="./svg/sprites.svg#icon-Vector"></use>
                     </svg>
                 </div>
                 <ul class="section-header">
@@ -110,7 +110,7 @@
                     <li  class="section-image2"><img width="270" src="./image/img.jpg" alt="Christopher Walker">
                         <h3 class="name">Christopher Walker</h3>
                         <p class="intro">Product Design</p>
-                        <a><svg width="44" height="30"> <use href="./svg/ellipse1.svg#icon-Ellipse"></use>
+                        <a><svg width="44" height="30"> <use href="./svg/sprites.svg#icon-Ellipse"></use>
                          </svg></a>
                          <a><svg width="44" height="30"><use href="./svg/twitter1.svg#icon-twitter"></use></svg></a>
                         <a><svg width="44" height="30">
@@ -189,10 +189,55 @@
                 <li><a class="footer-contact" href="tel:+12127724150">+12127724150</a></li>
             </ul>
         </div>
+       
     </footer>
+   
+    <div class="backdrop" data-modal>
+        <div class="modal-window">
+            <button type="button" class="modal-button" data-modal-close>&times;</button>
+            
 
-
-
+            <form action="#" class="modal-form">
+                <h4 class="form-tittle">Leave your information and we'll call you back</h4>
+                <div class="modal-feild-wrapper">
+                    <label for="name" class="modal-label">Name</label>
+                    <div class="modal-input-wrapper">
+                        <input type="text" name="name" id="name" required minlength="3" width="448" height="40" class="modal-input">
+                        <svg width="12" height="12" class="modal-input-icon">
+                            <use href="svg-form/sprite.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-feild-wrapper">
+                    <label for="Telephone" class="modal-label">Telephone</label>
+                    <div  class="modal-input-wrapper"> 
+                        <input type="number" name="telephone" id="telephone" required minlength="3" class="modal-input">
+                        <svg width="12" height="12" class="modal-input-icon">
+                            <use href="svg-form/sprite.svg#icon-Vector"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-feild-wrapper">
+                    <label for="email" class="modal-label">Email</label>
+                    <div class="modal-input-wrapper">
+                        <input type="email" name="email" id="email" required minlength="3" class="modal-input">
+                        <svg width="12" height="12" class="modal-input-icon">
+                            <use href="svg-form/sprite.svg#icon-Vector-2"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-feild-wrapper">
+                    <label for="comment" class="modal-label">comment</label>
+                    <div class="modal-input-wrapper">
+                        <input type="text" name="comment" id="comment" required minlength="3"  class="modal-input-comment">
+                        
+                    </div>
+                    <button type="button" class="modal-hero-button"><a>Send</a></button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
-
 </html>
